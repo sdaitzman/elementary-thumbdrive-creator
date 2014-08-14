@@ -329,9 +329,7 @@ mv ~/Downloads/elementary.img.dmg ~/Downloads/elementary.img</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string># select thumb drive, wipe it, and put installer on iton run {input, parameters}		display dialog "The converted file has been placed in your downloads folder and will be deleted later. Please insert your thumb drive and then click \"OK\""		tell application "Finder"		try			set allDrives to the name of every disk		on error			display dialog "There are no other drives to install on."			return		end try	end tell		set selectedDrive to "driveForInstallerGoesHere"	set selectedDrive to {choose from list allDrives with prompt "Choose the drive for the Elementary installer:"} as text	set selectedDrive to "\"" &amp; selectedDrive &amp; "\""		set devicePath to POSIX path of "/Volumes/" &amp; selectedDrive &amp; ";"	set mainDrive to do shell script "diskutil list | grep " &amp; selectedDrive &amp; " | grep -oh \"\\w*disk*\\w\";"			display dialog "The drive " &amp; devicePath &amp; " will be completely wiped as well as any other partitions on that drive." &amp; return &amp; "Do you want to continue?"	do shell script "diskutil partitionDisk " &amp; mainDrive &amp; " 1 GPT fat32 FLASHDISK 100%"		display dialog "Your thumb drive has been partitioned - next the Elementary installer will be flashed to it. This could take a while."		set devPath to "/dev/r" &amp; mainDrive		do shell script "diskutil unmountDisk " &amp; devPath	set userName to (short user name of (system info))	do shell script "dd if=/Users/" &amp; userName &amp; "/Downloads/elementary.img of=" &amp; devPath &amp; " bs=1m" with administrator privileges	
-	display dialog "Congratulations! The thumb drive is now an Elementary OS installer. Have fun!"
-		return devPathend run</string>
+					<string># select thumb drive, wipe it, and put installer on iton run {input, parameters}		display dialog "The converted file has been placed in your downloads folder and will be deleted later. Please insert your thumb drive and then click \"OK\""		tell application "Finder"		try			set allDrives to the name of every disk		on error			display dialog "There are no other drives to install on."			return		end try	end tell		set selectedDrive to "driveForInstallerGoesHere"	set selectedDrive to {choose from list allDrives with prompt "Choose the drive for the Elementary installer:"} as text	set selectedDrive to "\"" &amp; selectedDrive &amp; "\""		set devicePath to POSIX path of "/Volumes/" &amp; selectedDrive &amp; ";"	set mainDrive to do shell script "diskutil list | grep " &amp; selectedDrive &amp; " | grep -oh \"\\w*disk*\\w\";"			display dialog "The drive " &amp; devicePath &amp; " will be completely wiped as well as any other partitions on that drive." &amp; return &amp; "Do you want to continue?"	do shell script "diskutil partitionDisk " &amp; mainDrive &amp; " 1 GPT fat32 FLASHDISK 100%"		display dialog "Your thumb drive has been partitioned - next the Elementary installer will be flashed to it. This could take a while."		set devPath to "/dev/r" &amp; mainDrive		do shell script "diskutil unmountDisk " &amp; devPath	set userName to (short user name of (system info))	do shell script "dd if=/Users/" &amp; userName &amp; "/Downloads/elementary.img of=" &amp; devPath &amp; " bs=1m" with administrator privileges	do shell script "rm ~/Downloads/elementary.img"		display dialog "Congratulations! The thumb drive is now an Elementary OS installer. Have fun! It's now safe to remove the drive."		return devPathend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -355,8 +353,6 @@ mv ~/Downloads/elementary.img.dmg ~/Downloads/elementary.img</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>2F3B5E71-F6DF-4BCD-B3EF-027EDA32795B</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>18B98AA2-6397-4764-8863-60F115BE13DF</string>
 				<key>UnlocalizedApplications</key>
@@ -387,7 +383,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>649.000000:925.000000</string>
+				<string>649.000000:745.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -397,14 +393,14 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>5455580F-ACBC-49ED-B1B5-E5F964D003EE</key>
+		<key>6046103D-B970-43A7-9CC5-412040D3D85D</key>
 		<dict>
 			<key>from</key>
 			<string>8BB215FD-770C-4618-885B-16709D8DAC21 - 8BB215FD-770C-4618-885B-16709D8DAC21</string>
 			<key>to</key>
 			<string>18B98AA2-6397-4764-8863-60F115BE13DF - 18B98AA2-6397-4764-8863-60F115BE13DF</string>
 		</dict>
-		<key>B3D194BF-78C2-4D65-81C0-2216FF8C0BFB</key>
+		<key>873AB781-2A03-492F-B292-BDBAF193F47B</key>
 		<dict>
 			<key>from</key>
 			<string>80F7EFD6-0E78-4AA4-BFD6-E76A0D849426 - 80F7EFD6-0E78-4AA4-BFD6-E76A0D849426</string>
