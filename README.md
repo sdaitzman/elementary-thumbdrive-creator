@@ -1,6 +1,4 @@
-# Elementary/Ubuntu Thumb drive creator for Mac
-
-:penguin:
+# :penguin: Elementary/Ubuntu Thumb drive creator for Mac :penguin:
 
 ## Instructions:
 1. Download Elementary OS or Ubuntu from their respective websites
