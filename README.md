@@ -1,4 +1,5 @@
-elementary-thumbdrive-creator
-=============================
+# Elementary/Ubuntu Thumb drive creator for Mac
 
-Gets you from an Elementary ISO to an Elementary thumb drive
+## Instructions:
+1. Download Elementary OS or Ubuntu from their respective websites
+2. Download this app and start it
