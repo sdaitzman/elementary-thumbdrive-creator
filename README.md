@@ -9,6 +9,7 @@
 
 
 Some code inspired by Applescript created by Christopher Silvertooth - http://musings.silvertooth.us
+
 Tested by Carter McDivvit
 
 ## Boring stuff:
