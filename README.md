@@ -9,6 +9,7 @@
 
 
 Some code inspired by Applescript created by Christopher Silvertooth - http://musings.silvertooth.us
+Tested by Carter McDivvit
 
 ## Boring stuff:
 This tool is licensed under the file contained in LICENSE.md. The following non-legalese does not represent a contract and LICENSE.md takes priority:
