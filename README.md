@@ -6,6 +6,10 @@
 3. Smile, having not gone anywhere near the Terminal; there is no step 3 :smile:
 
 ## Credits:
+Created by Sam Daitzman
+
+Project inspired by @aroman's project at [github.com/aroman/freya-on-a-mac](https://github.com/aroman/freya-on-a-mac)
+
 Some code inspired by Applescript created by Christopher Silvertooth - http://musings.silvertooth.us
 
 Tested by Carter McDivvit
