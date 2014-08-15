@@ -5,6 +5,8 @@
 2. [Download](http://cl.ly/3e1q262Q2M1r/download/Make%20Elementary%20Thumb%20Drive.app.zip) this app and start it
 3. Smile, having not gone anywhere near the Terminal; there is no step 3 :smile:
 
+NOTE: The download link will always be to a stable version; official releases will be [here](https://github.com/sdaitzman/elementary-thumbdrive-creator/releases); the current version in the repo may be *very* unstable - use at your own risk.
+
 ## Credits:
 Created by Sam Daitzman
 
