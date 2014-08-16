@@ -1,3 +1,5 @@
+# DEPRECATED PROJECT
+
 # :penguin: *buntu Thumb drive creator for Mac :penguin:
 
 ## Instructions:
