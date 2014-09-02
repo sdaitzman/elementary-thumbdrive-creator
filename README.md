@@ -1,4 +1,5 @@
-# DEPRECATED PROJECT
+# DEPRECATED BUT STABLE PROJECT
+This project is 100% stable and safe to use (to the best of my knowledge) but development has moved onto a more complete installation solution.
 
 # :penguin: *buntu Thumb drive creator for Mac :penguin:
 
