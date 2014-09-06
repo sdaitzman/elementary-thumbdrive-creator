@@ -1,5 +1,4 @@
-# DEPRECATED BUT STABLE PROJECT
-This project is 100% stable and safe to use (to the best of my knowledge) but development has moved onto a more complete installation solution.
+***This project is 100% safe to use and stable but development has moved onto a more complete installation solution. If you're here from Avi Romanoff's freya-on-a-mac guide, this utility should work great to create thumb drives!***
 
 # :penguin: *buntu Thumb drive creator for Mac :penguin:
 
