@@ -1,4 +1,4 @@
-*** Efforts from this project have moved on to a more complete installation utility, and to a more maintained [fork](https://github.com/linusbobcat/create-elementary-os-installer). ***
+***Efforts from this project have moved on to a more complete installation utility, and to a more maintained [fork](https://github.com/linusbobcat/create-elementary-os-installer)***
 
 # :penguin: *buntu Thumb drive creator for Mac :penguin:
 
